@@ -34,4 +34,4 @@ The integration and full-pipeline notebooks add `/content/drive/MyDrive/floor_pl
 
 - Downloads from Colab arrive with `(1)`-style suffixes. Rename them to match the existing file and put them in the right stage folder. The class definitions are duplicated across `integration.ipynb` and `full_pipeline.ipynb`, so a fix in one may need to be mirrored in the other.
 - Edit notebooks as JSON (`NotebookEdit`, or Python on `cell['source']`). Some cells in `full_pipeline.ipynb` have scrambled line order (for example, the Drive-mount cell), so check that a cell's code is valid before trusting it.
-- Configuration lives at the top of each notebook as hard-coded Drive paths (a `CONFIG` cell in the pipeline notebooks). `full_pipeline.ipynb` also hard-codes a Roboflow API key.
+- Configuration lives at the top of each notebook as hard-coded Drive paths (a `CONFIG` cell in the pipeline notebooks). Secrets (`HF_TOKEN`, `ROBOFLOW_API_KEY`) are read with a `get_secret()` helper (Colab Secrets, then env vars). Never hard-code keys in notebooks.

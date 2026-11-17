@@ -17,6 +17,7 @@ ENV/
 # --- Secrets ---
 .env
 .env.*
+!.env.example
 *.key
 secrets.json
 

@@ -30,6 +30,13 @@ docs/
 papers/                     reference papers
 ```
 
+## Secrets
+
+The notebooks read `HF_TOKEN` (Hugging Face, for FLUX.1-dev) and `ROBOFLOW_API_KEY`
+through a small `get_secret()` helper. It checks **Colab Secrets** first (key icon in the
+left sidebar; turn on notebook access) and falls back to environment variables. For local
+runs, copy `.env.example` to `.env`. Never commit real keys.
+
 ## Running
 
 The notebooks run on **Google Colab with a GPU**. They read data, model weights, and the

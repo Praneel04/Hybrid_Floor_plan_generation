@@ -185,7 +185,7 @@ The `FurnitureDetector` class interfaces with Roboflow's serverless API:
 ```python
 InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="bngHGPb2UJDgzZlQGaTu"
+    api_key=os.environ["ROBOFLOW_API_KEY"]
 )
 model_id = "furniture-ya4pe/1"
 confidence_threshold = 0.3
