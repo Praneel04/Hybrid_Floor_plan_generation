@@ -1,0 +1,118 @@
+{
+  "0_sink.png": {
+    "width_m": 0.6,
+    "height_m": 0.5
+  },
+  "1_stove.png": {
+    "width_m": 0.6,
+    "height_m": 0.6
+  },
+  "2_bathtub.png": {
+    "width_m": 1.5,
+    "height_m": 0.7
+  },
+  "3_bed.png": {
+    "width_m": 2.0,
+    "height_m": 1.5
+  },
+  "4_sink.png": {
+    "width_m": 0.6,
+    "height_m": 0.5
+  },
+  "5_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "6_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "7_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "8_dining_table.png": {
+    "width_m": 1.5,
+    "height_m": 0.9
+  },
+  "9_shower.png": {
+    "width_m": 0.9,
+    "height_m": 0.9
+  },
+  "10_bed.png": {
+    "width_m": 2.0,
+    "height_m": 1.5
+  },
+  "11_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "12_tv.png": {
+    "width_m": 1.2,
+    "height_m": 0.15
+  },
+  "13_single-bed.png": {
+    "width_m": 2.0,
+    "height_m": 1.0
+  },
+  "14_bedside.png": {
+    "width_m": 0.5,
+    "height_m": 0.4
+  },
+  "15_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "16_commode.png": {
+    "width_m": 0.5,
+    "height_m": 0.4
+  },
+  "17_L-sofa.png": {
+    "width_m": 2.5,
+    "height_m": 2.0
+  },
+  "18_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "19_chair.png": {
+    "width_m": 0.6,
+    "height_m": 0.6
+  },
+  "20_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "21_study.png": {
+    "width_m": 1.2,
+    "height_m": 0.6
+  },
+  "22_table.png": {
+    "width_m": 1.0,
+    "height_m": 0.6
+  },
+  "23_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "24_door.png": {
+    "width_m": 0.9,
+    "height_m": 0.1
+  },
+  "25_table.png": {
+    "width_m": 1.0,
+    "height_m": 0.6
+  },
+  "26_kitchen.png": {
+    "width_m": 0.6,
+    "height_m": 2.5
+  },
+  "27_commode.png": {
+    "width_m": 0.5,
+    "height_m": 0.4
+  },
+  "28_sofa.png": {
+    "width_m": 2.0,
+    "height_m": 0.9
+  }
+}
