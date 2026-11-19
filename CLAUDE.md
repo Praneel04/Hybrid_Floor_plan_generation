@@ -24,7 +24,7 @@ The stages, in order, with the notebook that owns each stage:
 
 The integration and full-pipeline notebooks add `/content/drive/MyDrive/floor_planrules` to `sys.path` and import `room_analyzer.extract_room_dimensions`, `furniture_definitions.load_furniture_prototypes`, and `furniture_placer.FurniturePlacer` from it. A copy lives in `src/floor_planrules/`, but the notebooks import the Drive copy, which may differ. Changes here must be uploaded to Drive to take effect.
 
-### Placement invariants (from FIXES_APPLIED.md)
+### Placement invariants
 
 - Containment checks must test the whole furniture polygon (`room_polygon.buffer(2.0).contains(f_poly)`), not just its centroid.
 - Furniture prototypes are copied, never `pop()`ed, so multiple rooms of the same type all get furniture.

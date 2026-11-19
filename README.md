@@ -23,8 +23,8 @@ src/floor_planrules/        rule-based placement modules (room_analyzer, furnitu
 apps/furniture_customization/  Streamlit app for interactive furniture placement
 data/furniture_crops/       furniture crop images + furniture_measurements.json
 docs/
-  reports/                  phase reports (.docx/.pages) and research_paper.tex
-  notes/                    markdown reports, fixes log, quick start
+  reports/                  phase 2 & 3 reports (.docx) and research_paper.tex
+  notes/                    phase 3 review and chapter 10 results (markdown)
   scripts/                  python-docx generators for the reports
   figures/                  figures used in the paper and reports
 papers/                     reference papers
